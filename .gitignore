@@ -1,0 +1,45 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# MATLAB-specific
+*.asv
+*.mex*
+*.mat
+!GM_001.mat  # Include the data file
+slprj/
+sccprj/
+
+# Output files
+*.png
+*.jpg
+*.pdf
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Specific to this project
+confusion_matrix.png
